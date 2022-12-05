@@ -1,2 +1,3 @@
 rootProject.name = 'BaeckJoon_Java'
+include 'testcase'
 
