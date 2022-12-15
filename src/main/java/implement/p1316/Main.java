@@ -5,6 +5,8 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.StringTokenizer;
 
+import static implement.Path.IMPLEMENT_PATH;
+
 
 /**
  * Solution code for "BaekJoon 셀프 넘버".
@@ -40,7 +42,7 @@ public class Main {
     }
 
     public static void main(String[] args) throws IOException {
-        System.setIn(new FileInputStream("./testcase" + TEST_PATH));
+        System.setIn(new FileInputStream(IMPLEMENT_PATH + TEST_PATH));
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
 

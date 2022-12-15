@@ -4,6 +4,8 @@ import java.io.*;
 import java.util.LinkedList;
 import java.util.Queue;
 
+import static implement.Path.IMPLEMENT_PATH;
+
 /**
  * Solution code for "BaekJoon 제로".
  * <p>
@@ -58,7 +60,7 @@ public class Main {
     }
 
     public static void main(String[] args) throws IOException {
-        System.setIn(new FileInputStream("./testcase" + TEST_PATH));
+        System.setIn(new FileInputStream(IMPLEMENT_PATH + TEST_PATH));
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
 

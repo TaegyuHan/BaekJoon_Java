@@ -3,6 +3,8 @@ package mathematics.p1000;
 import java.io.*;
 import java.util.StringTokenizer;
 
+import static mathematics.Path.MATHEMATICS_PATH;
+
 /**
  * Solution code for "BaekJoon A + B".
  * <p>
@@ -28,7 +30,7 @@ public class Main {
 
     private static void inputData() throws IOException {
         // 로컬 테스트 파일
-        System.setIn(new FileInputStream("./testcase" + TEST_PATH));
+        System.setIn(new FileInputStream(MATHEMATICS_PATH + TEST_PATH));
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
         br.close();

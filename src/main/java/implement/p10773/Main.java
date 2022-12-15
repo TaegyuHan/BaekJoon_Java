@@ -3,6 +3,8 @@ package implement.p10773;
 import java.io.*;
 import java.util.Stack;
 
+import static implement.Path.IMPLEMENT_PATH;
+
 /**
  * Solution code for "BaekJoon 제로".
  * <p>
@@ -15,7 +17,7 @@ public class Main {
     final static String TEST_PATH = "/p10773/input/1.txt";
 
     public static void main(String[] args) throws IOException {
-//        System.setIn(new FileInputStream("./testcase" + TEST_PATH));
+        System.setIn(new FileInputStream(IMPLEMENT_PATH + TEST_PATH));
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         // 프린트 풀이

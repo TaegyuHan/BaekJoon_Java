@@ -2,6 +2,8 @@ package implement.p2941;
 
 import java.io.*;
 
+import static implement.Path.IMPLEMENT_PATH;
+
 /**
  * Solution code for "BaekJoon 크로아티아 알파벳".
  * <p>
@@ -13,7 +15,7 @@ public class Main {
     private static final String TEST_CASE = "/p2941/input/5.txt";
 
     public static void main(String[] args) throws IOException {
-        System.setIn(new FileInputStream("./testcase" + TEST_CASE));
+        System.setIn(new FileInputStream(IMPLEMENT_PATH + TEST_CASE));
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int answer = 0;
