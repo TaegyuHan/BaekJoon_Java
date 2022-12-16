@@ -10,7 +10,7 @@ import static implement.Path.IMPLEMENT_PATH;
 /**
  * Solution code for "BaekJoon 문제이름".
  * <p>
- * - Problem link: <a href="https://www.acmicpc.net/problem/번호입력">Link</a>
+ * - Problem link: <a href="https://www.acmicpc.net/problem/2108">Link</a>
  * 작성자: gksxorb159
  * BigO: 2nlogn + 2N
  */
