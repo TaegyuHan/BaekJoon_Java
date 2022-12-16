@@ -8,7 +8,7 @@ import java.util.Collections;
 import static implement.Path.IMPLEMENT_PATH;
 
 /**
- * Solution code for "BaekJoon 문제이름".
+ * Solution code for "BaekJoon 통계학".
  * <p>
  * - Problem link: <a href="https://www.acmicpc.net/problem/2108">Link</a>
  * 작성자: gksxorb159
