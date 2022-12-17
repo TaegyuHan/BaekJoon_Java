@@ -4,6 +4,14 @@ import java.io.*;
 
 import static implement.Path.IMPLEMENT_PATH;
 
+
+/**
+ * Solution code for "BaekJoon 재귀함수가 뭔가요?".
+ * <p>
+ * - Problem link: <a href="https://www.acmicpc.net/problem/번호입력">Link</a>
+ * 작성자: gksxorb159
+ * BigO: O(N) : 50
+ */
 public class Main {
 
     public final static String TEST_PATH = "/p17478/input/2.txt";
