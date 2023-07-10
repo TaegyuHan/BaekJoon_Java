@@ -18,4 +18,3 @@
 | 02 | Mathematics | 수학 | [바로가기](./src/main/java/mathematics) |
 | 03 | queue | 큐 | [바로가기](./src/main/java/queue) |
 | 04 | stack | 스택 | [바로가기](./src/main/java/stack) |
-| 05 | Tree | 트리 | [바로가기](./src/main/java/tree) |
