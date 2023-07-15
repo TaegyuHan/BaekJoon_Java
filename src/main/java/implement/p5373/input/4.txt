@@ -1,0 +1,6 @@
+1
+10
+L- U- L+ U- L- U- U- L+ U+ U+
+// gwo
+// www
+// rww

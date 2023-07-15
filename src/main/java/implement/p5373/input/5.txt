@@ -1,0 +1,13 @@
+6
+5
+U- R- U- D+ R-
+6
+L+ L+ F+ B+ U- L+
+7
+L- U- U+ U+ L+ R+ F-
+7
+D+ L- B- U+ D+ B+ B+
+8
+U- D+ B+ U+ D+ R- B- R+
+9
+B- L+ U- B+ B+ U+ D+ L+ B-
