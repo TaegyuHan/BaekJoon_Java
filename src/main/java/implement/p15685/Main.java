@@ -83,6 +83,12 @@ class Position {
         return col;
     }
 
+    public double calculateDistance(int otherRow, int otherCol) {
+        double deltaX = row - otherRow;
+        double deltaY = col - otherCol;
+        return Math.sqrt(Math.pow(deltaX, 2) + Math.pow(deltaY, 2));
+    }
+
     @Override
     public String toString() {
         return "(" + row + ", " + col + ")";
@@ -120,8 +126,20 @@ class DragonCurve {
         }
     }
 
+    private Position getEndPosition() {
+        Position maxDistancePosition = positionsList.get(0);
+        double maxDistance = 0.0;
+        for (Position position : positionsList) {
+            if (maxDistance < position.calculateDistance(row, col)) {
+                maxDistancePosition = position;
+            }
+        }
+
+        return maxDistancePosition;
+    }
+
     private void createCurve() {
-        Position position = positionsList.get(positionsList.size() - 1);
+        Position position = getEndPosition();;
         int currentRow = position.getRow();
         int currentCol = position.getCol();
 
@@ -159,8 +177,8 @@ class DragonCurve {
 }
 
 class Grid {
-    public static final int ROW_SIZE = 100;
-    public static final int COL_SIZE = 100;
+    public static final int ROW_SIZE = 101;
+    public static final int COL_SIZE = 101;
     private int[][] grid;
 
     Grid() {
