@@ -1,0 +1,14 @@
+5 5
+@.^.B
+..B#B
+#^&^#
+#.#.B
+^.BM.
+ULULLRLRURDRLDRULRUU
+3 3 One 12 2 14 10
+5 4 Boss 8 16 7 2
+1 5 O CU
+2 3 O RE
+2 5 O HR
+4 5 W 7
+5 3 A 1

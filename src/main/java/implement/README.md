@@ -2,6 +2,7 @@
 
 | 난이도 | 번호 | 이름 | 풀이 링크 |
 | :--: | :--: | :--------------------------: | :------: |
+| <img height="20px" width="20px" src="https://static.solved.ac/tier_small/19.svg"/> | [17081](https://www.acmicpc.net/problem/17081) | [RPG Extreme](https://www.acmicpc.net/problem/17081) | [바로가기](./p17081/Main.java) |
 | <img height="20px" width="20px" src="https://static.solved.ac/tier_small/16.svg"/> | [5373](https://www.acmicpc.net/problem/5373) | [큐빙](https://www.acmicpc.net/problem/5373) | [바로가기](./p5373/Main.java) |
 | <img height="20px" width="20px" src="https://static.solved.ac/tier_small/13.svg"/> | [1000](https://www.acmicpc.net/problem/22859) | [HTML 파싱](https://www.acmicpc.net/problem/22859) | [바로가기](./p22859/Main.java) |
 | <img height="20px" width="20px" src="https://static.solved.ac/tier_small/12.svg"/> | [15683](https://www.acmicpc.net/problem/15683) | [감시](https://www.acmicpc.net/problem/15683) | [바로가기](./p15683/Main.java) |
