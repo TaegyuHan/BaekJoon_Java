@@ -33,9 +33,9 @@ public class ReadmeMake {
 
     public static void main(String[] args) {
 
-        int rank = BRONZE_2;
-        int number = 10988;
-        String name = "필랜드롬인지 확인하기";
+        int rank = BRONZE_5;
+        int number = 25314;
+        String name = "코딩은 체육과목 입니다.";
 
         System.out.println("| <img height=\"20px\" width=\"20px\" src=\"https://static.solved.ac/tier_small/" + rank +".svg\"/> | [" + number + "](https://www.acmicpc.net/problem/" + number +") | [" + name + "](https://www.acmicpc.net/problem/" + number + ") | [바로가기](./p" + number + "/Main.java) |");
     }
