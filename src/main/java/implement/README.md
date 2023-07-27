@@ -38,3 +38,4 @@
 | <img height="20px" width="20px" src="https://static.solved.ac/tier_small/6.svg"/> | [4673](https://www.acmicpc.net/problem/4673) | [셀프 넘버](https://www.acmicpc.net/problem/4673) | [바로가기](./p4673/Main.java) |
 | <img height="20px" width="20px" src="https://static.solved.ac/tier_small/6.svg"/> | [8979](https://www.acmicpc.net/problem/8979) | [올림픽](https://www.acmicpc.net/problem/8979) | [바로가기](./p8979/Main.java) |
 | <img height="20px" width="20px" src="https://static.solved.ac/tier_small/1.svg"/> | [25314](https://www.acmicpc.net/problem/25314) | [코딩은 체육과목 입니다.](https://www.acmicpc.net/problem/25314) | [바로가기](./p25314/Main.java) |
+| <img height="20px" width="20px" src="https://static.solved.ac/tier_small/1.svg"/> | [25372](https://www.acmicpc.net/problem/25372) | [성택이의 은밀한 비밀번호](https://www.acmicpc.net/problem/25372) | [바로가기](./p25372/Main.java) |
