@@ -70,8 +70,8 @@ class Tree {
 
     public Tree(int size) {
         this.size = size;
-        this.height = (int) Math.ceil(Math.log(Math.pow(2, 20)));
-        this.arraySize = (int) Math.pow(2, this.height + 1);
+        this.height = (int) Math.ceil(Math.log(this.size) / Math.log(2));
+        this.arraySize = (int) Math.pow(2, this.height + 1) - 1;
         this.tree = inintTree();
     }
 
@@ -83,39 +83,22 @@ class Tree {
         return tree;
     }
 
-    private int findHouse(int index, Duck duck) {
+    private int findHouse(Duck duck) {
+        int index = duck.getNumber();
+        this.tree[index].visited();
+        int result = 0;
 
-        if (size < index || duck.getNumber() < index) { return NO_CONNECTION; }
-
-        if (duck.checkNumber(index)) {
-            this.tree[index].visited();
-            return CONNECTION;
-        }
-
-        int left = index * 2;
-        int right = (index * 2) + 1;
-
-        int leftTmp = findHouse(left, duck);
-        if (leftTmp != NO_CONNECTION) {
+        while (index != ROOT_INDEX) {
+            index /= 2;
             if (this.tree[index].isVisited()) {
-                return index;
+                result = index;
             }
-            return leftTmp;
         }
-
-        int rightTmp = findHouse(right, duck);
-        if (rightTmp != NO_CONNECTION) {
-            if (this.tree[index].isVisited()) {
-                return index;
-            }
-            return rightTmp;
-        }
-
-        return NO_CONNECTION;
+        return result;
     }
 
     public void goDuck(Duck duck) {
-        int result = findHouse(ROOT_INDEX, duck);
+        int result = findHouse(duck);
         System.out.println(result);
     }
 
@@ -130,7 +113,7 @@ class Tree {
 
 public class Main {
 
-    private final static String TEST_PATH = "/p20364/input/1.txt";
+    private final static String TEST_PATH = "/p20364/input/3.txt";
 
     public static void main(String[] args) throws IOException {
         System.setIn(new FileInputStream(TREE_PATH + TEST_PATH));
