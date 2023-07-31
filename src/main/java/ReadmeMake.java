@@ -33,9 +33,9 @@ public class ReadmeMake {
 
     public static void main(String[] args) {
 
-        int rank = BRONZE_5;
-        int number = 25372;
-        String name = "성택이의 은밀한 비밀번호";
+        int rank = BRONZE_4;
+        int number = 4470;
+        String name = "줄번호";
 
         System.out.println("| <img height=\"20px\" width=\"20px\" src=\"https://static.solved.ac/tier_small/" + rank +".svg\"/> | [" + number + "](https://www.acmicpc.net/problem/" + number +") | [" + name + "](https://www.acmicpc.net/problem/" + number + ") | [바로가기](./p" + number + "/Main.java) |");
     }
