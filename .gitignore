@@ -129,3 +129,6 @@ gradle-app.setting
 .classpath
 
 ./gradlew
+
+# 커밋 메시지 정의
+git-commit.txt
